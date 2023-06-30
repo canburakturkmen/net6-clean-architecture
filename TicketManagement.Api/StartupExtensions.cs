@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TicketManagement.Api.Middleware;
 using TicketManagement.Api.Services;
 using TicketManagement.Api.Utility;
 using TicketManagement.Application;
@@ -44,9 +45,15 @@ namespace TicketManagement.Api
 
             app.UseHttpsRedirection();
 
+            //app.UseAuthentication();
+
             app.UseRouting();
 
+            app.UseCustomExceptionHandler();
+
             app.UseCors("Open");
+
+            //app.UseAuthorization();
 
             app.MapControllers();
 
