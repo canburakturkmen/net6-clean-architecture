@@ -1,0 +1,33 @@
+.side-nav {
+  width: 240px;
+  height: 100%;
+  background-color: #e5e5e5;
+  padding: 24px 0;
+  color: black;
+  font-size: large;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  &:not(:last-child) {
+    border-bottom: 1px solid;
+  }
+}
+
+a {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 32px auto;
+  gap: 8px;
+  align-items: baseline;
+  padding: 8px 16px;
+}
+
+i {
+  font-size: 24px;
+}

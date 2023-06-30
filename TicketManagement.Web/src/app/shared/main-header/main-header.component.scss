@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  background-color: black;
+  height: 80px;
+  box-shadow: 0 0 2px 4px rgba($color: #e5e5e5, $alpha: 0.75);
+}

@@ -1,0 +1,51 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+thead > tr {
+  border-bottom: 1px solid grey;
+}
+
+tbody {
+  tr:not(:last-child) {
+    border-bottom: 1px solid grey;
+  }
+}
+td,
+th {
+  padding: 20px 0;
+}
+
+td {
+  text-align: center;
+  width: 350px;
+
+  img {
+    max-width: 300px;
+  }
+}
+
+i {
+  font-size: 24px;
+  color: whitesmoke;
+}
+
+.event-edit {
+  display: inline-block;
+  background-color: rgb(42, 138, 161);
+  padding: 8px 10px;
+  border-radius: 8px;
+  text-align: center;
+  border: none;
+}
+
+.event-delete {
+  display: inline-block;
+  background-color: rgb(211, 42, 42);
+  margin-left: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-align: center;
+  border: none;
+}

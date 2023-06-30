@@ -1,0 +1,43 @@
+form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form > div {
+  padding-left: 20px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+label {
+  font-weight: 600;
+}
+
+#form-actions {
+  display: block;
+}
+
+.add-btn {
+  display: inline-block;
+  background: transparent;
+  color: black;
+  border: 2px solid blue;
+  border-radius: 4px;
+  width: 150px;
+  padding: 8px 0;
+}
+
+a {
+  display: inline-block;
+  border: 2px solid red;
+  border-radius: 4px;
+  color: black;
+  text-align: center;
+  width: 150px;
+  padding: 8px 0;
+  margin-left: 20px;
+}

@@ -1,0 +1,14 @@
+.event-actions-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.event-actions-group > a {
+  margin-right: 32px;
+  padding: 4px 16px;
+  border: 2px solid rgb(95, 95, 255);
+  border-radius: 8px;
+  color: rgb(95, 95, 255);
+  font-weight: 600;
+}
