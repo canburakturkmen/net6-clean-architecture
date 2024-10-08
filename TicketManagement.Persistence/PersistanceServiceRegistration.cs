@@ -6,7 +6,7 @@ using TicketManagement.Persistence.Repositories;
 
 namespace TicketManagement.Persistence
 {
-    public static class PersistanceSerivceRegistration
+    public static class PersistanceServiceRegistration
     {
         public static IServiceCollection AddPersistanceServices(this IServiceCollection services, IConfiguration configuration) 
         {
